@@ -1,0 +1,31 @@
+li {
+    list-style: none;
+    color: red;
+    font-size: 30px;
+
+
+}
+
+li::before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-image: url("https://yt3.ggpht.com/ytc/AKedOLSqB3mISn9pFF3g9gtHrJoFCtCpYpjzrcQKI3sJtg=s900-c-k-c0x00ffffff-no-rj");
+    background-size: 100%;
+    display: inline-block;
+
+
+}
+
+li::after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-image: url("https://yt3.ggpht.com/ytc/AKedOLSqB3mISn9pFF3g9gtHrJoFCtCpYpjzrcQKI3sJtg=s900-c-k-c0x00ffffff-no-rj");
+    background-size: 100%;
+    display: inline-block;
+}
+a {
+   font-size: 70px;
+    color: black;
+}

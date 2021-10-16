@@ -1,0 +1,31 @@
+li {
+    list-style: none;
+    color: olivedrab;
+    font-size: 50px;
+
+
+}
+
+li::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-image: url("https://yt3.ggpht.com/ytc/AKedOLSqB3mISn9pFF3g9gtHrJoFCtCpYpjzrcQKI3sJtg=s900-c-k-c0x00ffffff-no-rj");
+    background-size: 100%;
+    display: inline-block;
+
+
+}
+
+li::after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    background-image: url("http://1.bp.blogspot.com/-krKPfFcemiM/Tsb-B5ZtydI/AAAAAAAAAJU/vMLxoBEXKbw/s1600/Mr%2BBean%2BFun.jpg");
+    background-size: 100%;
+    display: inline-block;
+}
+a {
+    font-size: 70px;
+    color: black;
+}

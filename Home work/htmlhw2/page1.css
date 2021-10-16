@@ -1,0 +1,27 @@
+body{
+    background: white;
+}
+
+.h3 {
+    font-size: 30px;
+    color: olivedrab;
+    background-image:url("https://estaticos-cdn.elperiodico.com/clip/9fc13c31-3f20-40cb-a832-09b2fd7cb5a8_alta-libre-aspect-ratio_default_0.png");
+    background-size: 100%;
+    width: 200px;
+    height: 100px;
+}
+
+.h2 {
+    font-size: 30px;
+    color: olivedrab;
+}
+
+.description {
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: justify;
+    width: 500px;
+    height: 180px;
+    background: aquamarine;
+    border-radius: 10px;
+}
