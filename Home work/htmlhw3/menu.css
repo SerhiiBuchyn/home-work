@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background: aliceblue;
+}
+.menu {
+    display: flex;
+    height: 191px;
+    width: 100%;
+    justify-content:space-evenly;
+    background-image: url("https://pbs.twimg.com/media/DuVGm5uXQAEhkjn.jpg");
+    background-size: contain;
+    text-align: match-parent;
+
+}
+.menu-item {
+    box-sizing: content-box;
+    margin: 10px;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.title {
+    margin: 20px;
+}
+
+.description {
+    display: block;
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    font-size: 16px;
+    text-decoration: black;
+    background: darkgray;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-shadow: black;
+    margin: 10px;
+}
+img {
+    display: block;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+
