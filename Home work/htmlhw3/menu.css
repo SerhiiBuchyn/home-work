@@ -2,16 +2,18 @@ body {
     margin: 0;
     background: aliceblue;
 }
+
 .menu {
     display: flex;
     height: 191px;
     width: 100%;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     background-image: url("https://pbs.twimg.com/media/DuVGm5uXQAEhkjn.jpg");
     background-size: contain;
     text-align: match-parent;
 
 }
+
 .menu-item {
     box-sizing: content-box;
     margin: 10px;
@@ -19,8 +21,9 @@ body {
     text-decoration: none;
 
 }
+
 .title {
-    margin: 20px;
+    margin: 10px;
 }
 
 .description {
@@ -38,10 +41,55 @@ body {
     box-shadow: black;
     margin: 10px;
 }
+
 img {
-    display: block;
+    display: flex;
     margin: 10px;
     border-radius: 20px;
+}
+
+li {
+    list-style: none;
+    font-size: 22px;
+}
+li::before {
+    content:'';
+    width: 30px;
+    height: 30px;
+    background-image: url("https://w0.peakpx.com/wallpaper/950/353/HD-wallpaper-mr-bean-show-mr-bean-funny-cartoon-animation-thumbnail.jpg");
+    background-size: 100%;
+    display: inline-block;
+}
+.contact {
+    margin: 20px 20px;
+    /*display: flex;*/
+    justify-content: center;
+    padding: 20px;
+    background: silver;
+    width: 250px;
+    height: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+
 
 }
 
+.p {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.p {
+    box-shadow: 30px -20px 100px black;
+}
+
+.p-item {
+    display: block;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+}
