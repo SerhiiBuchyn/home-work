@@ -11,6 +11,7 @@
 .d-flex {
     display: flex;
 }
+
 .warp {
     box-sizing: border-box;
     width: 950px;
