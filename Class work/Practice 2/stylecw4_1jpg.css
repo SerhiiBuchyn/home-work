@@ -110,7 +110,7 @@
     padding: 0 0 30px 0;
 }
 
-button {
+.button-header {
     background-color: var(--color_dark_blue);
     width: 120px;
     height: 40px;
@@ -215,7 +215,7 @@ button {
     row-gap: 30px;
     column-gap: 30px;
     padding: 0 0 50px 0;
-    margin: 0;
+    justify-content: space-evenly;
 }
 
 .catalog__title {
@@ -234,11 +234,12 @@ button {
 
 .catalog__container1 {
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0;
     width: 25%;
     border: 2px solid var(--color_auqa);
     border-radius: 20px;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .container__menu {
@@ -283,7 +284,7 @@ button {
     justify-content: space-between;
 }
 .left_footer {
-    height: 20px;
+    height: 15px;
     width: 60px;
     background-color: var(--color_dark_blue);
     border-radius: 5px;
@@ -292,8 +293,8 @@ button {
 
 .right__footer_item {
     display: inline-block;
-    height: 20px;
-    width: 40px;
+    height: 15px;
+    width: 30px;
     background-color: var(--color_dark_blue);
     border-radius: 5px;
 }
@@ -301,4 +302,85 @@ button {
     display: flex;
     margin: 0;
     column-gap: 10px;
+}
+
+
+
+.footer {
+    margin: 0;
+    padding: 0 0 50px 0;
+    background-color: var(--color_light);
+}
+.footer__menu {
+    padding: 0 60px 0;
+    justify-content: center;
+}
+.fs-footer-title {
+    text-align: center;
+    justify-content: left;
+    padding: 30px 40px 20px;
+    font-size: 30px;
+}
+.footer__menu_right, .footer__menu_left {
+    margin: 0;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.footer__menu_left {
+    background-color: var(--color_dark_blue);
+    color: var(--color_auqa);
+}
+.footer__menu_right {
+    background-color: var(--color_auqa);
+    color: var(--color_dark_blue);
+}
+.footer__description_left,.footer__description_right {
+    padding: 0 40px 30px;
+    line-height: 25px;
+}
+.footer_title {
+    display: flex;
+    justify-content: left;
+}
+.button_footer_left, .button_footer_right {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    align-items: center;
+    margin: 0 0 30px 40px;
+}
+.button_footer_right {
+    background-color: var(--color_dark_blue);
+    color: var(--color_auqa);
+}
+.button_footer_left {
+    background-color: var(--color_auqa);
+    color: var(--color_dark_blue);
+}
+
+
+
+.contact__footer_end {
+    background-color: var(--color_dark_blue);
+    padding: 20px 0 50px 0;
+}
+.contact__box {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+    padding: 0 0 15px 0;
+}
+.box__item {
+    flex-grow: 1;
+    width: 70px;
+    padding: 5px;
+    color: var(--color_dark_blue);
+    background-color: var(--color_light);
+    border-radius: 5px;
+    text-align: center;
+}
+.line {
+    border-bottom: 2px solid var(--color_auqa);
+    width: 40%;
 }
