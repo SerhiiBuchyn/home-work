@@ -122,6 +122,17 @@ table {
     border: none;
     cursor: pointer;
 }
+.nav__btn_mobile {
+    display: none;
+    width: 30px;
+    flex-direction: column;
+    row-gap: 4px;
+}
+.gmb__btn {
+    height: 3px;
+    background-color: #FF7400;
+
+}
 
 .header__title, h2, h1 {
     font-weight: normal;
@@ -221,25 +232,28 @@ table {
 }
 
 .intro__item p {
+    text-align: center;
     font-weight: normal;
     font-size: 26px;
     line-height: 30px;
-    text-align: center;
     color: #656363;
 }
 
 .story {
     padding-top: 387px;
     display: flex;
-    justify-content: flex-start;
     column-gap: 250px;
 }
 
 .story__container {
+    display: flex;
     max-width: 550px;
+    flex-direction: column;
 }
 
 .story__title {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -282,30 +296,30 @@ table {
 }
 
 .story__container_img {
-    position: relative;
+
 }
 
 .story__img_wrap {
-    position: absolute;
+    position: relative;
 }
 
-.story__img1 {
+.story__img1 img {
     top: 32px;
     left: 84px;
     position: absolute;
 }
 
-.story__img2 {
+.story__img2 img {
     position: absolute;
 }
 
-.story__img3 {
+.story__img3 img {
     position: absolute;
     right: -95px;
     top: 20px;
 }
 
-.story__img4 {
+.story__img4 img {
     position: absolute;
     top: 195px;
     left: 100px;
@@ -388,7 +402,14 @@ table {
 
 .dishes__menu {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 30px;
+}
+.dishes__menu_left {
+    display: flex;
+}
+.menu__left_img img {
+    width: 100%;
 }
 
 .menu__right_item {
@@ -409,8 +430,7 @@ table {
     font-size: 26px;
     line-height: 30px;
     color: #000000;
-    display: flex;
-    align-items: center;
+    text-align: center;
 }
 
 .menu__right_item span {
@@ -450,12 +470,20 @@ table {
     padding-bottom: 20px;
     position: relative;
 }
+.mobile__menu__item {
+    display: none;
+}
 .recommended {
     position: absolute;
     left: 0;
     top: 0;
     background-color: #D67E34;
     padding: 7px 11px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
 }
 .menu__item_img img {
     border-radius: 50%;
@@ -488,7 +516,7 @@ table {
     position: relative;
 }
 
-.mein__menu__item h5 {
+.product__title {
     font-weight: normal;
     font-size: 26px;
     line-height: 30px;
@@ -536,8 +564,9 @@ table {
     padding: 104px 0 75px;
 }
 .reviews__img img {
-
     border-radius: 50%;
+}
+.reviews__img {
     padding-bottom: 17px;
 }
 
@@ -634,7 +663,6 @@ table {
     color: #000000;
     padding-bottom: 60px;
     text-align: center;
-    padding-top: 107px;
 }
 
 .gallery__staff_title span {
@@ -670,3 +698,6 @@ table {
     border-color: #FF7400;
 }
 
+.footer__img {
+    width: 100%;
+}
